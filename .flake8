@@ -1,0 +1,12 @@
+[flake8]
+max-line-length = 120
+ignore = E501,W503
+exclude = 
+    venv,
+    .git,
+    __pycache__,
+    .pytest_cache,
+    htmlcov,
+    .coverage
+per-file-ignores =
+    __init__.py:F401
